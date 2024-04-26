@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+/* young-serif font style */
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* outfit font style */
+.outfit_uniquifier {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+/* responsive 375px styles */
+header img {
+  width: 375px;
+  height: 171px;
+}
+header h1 {
+  width: 311px;
+  height: 72px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 36px;
+  color: #312e2c;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+header p {
+  width: 311px;
+  height: 120px;
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+/* Preparation time section styles  */
+.Preparation_time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 311px;
+  height: 196px;
+  padding: 24px;
+  gap: 16px;
+  margin-top: 50px;
+}
+.Preparation_time h3 {
+  width: 263px;
+  height: 20px;
+  font-family: "Outfit", sans-serif;
+  color: #7a284e;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 20%;
+}
+.Preparation_time li::marker {
+  color: #7a284e;
+}
+.Preparation_time ul {
+  display: flex;
+  flex-direction: column;
+  width: 263px;
+  height: 48px;
+  padding: 0px, 0px, 0px, 8px;
+  gap: 16px;
+  padding-left: 30%;
+}
+.Preparation_time ul li {
+  width: 223px;
+  height: 48px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f564d;
+}
+.Preparation_time span {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f564d;
+}
+
+/* Ingredients section styles */
+.Ingredients {
+  width: 311px;
+  height: 228px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+.Ingredients h2 {
+  width: 311px;
+  height: 28px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 28px;
+  color: #854632;
+}
+.Ingredients ul {
+  width: 311px;
+  height: 176px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.Ingredients ul li {
+  height: 24px;
+  width: 311px;
+  padding-left: 3%;
+  gap: 16px;
+  margin-left: 5%;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f564d;
+}
+.Ingredients li::marker {
+  color: #854632;
+}
+.Ingredients hr {
+  width: 311px;
+  border: 1px solid #e3ddd7;
+  color: #e3ddd7;
+  margin-top: 40px;
+}
+/* Instructions section styles */
+.Instructions {
+  width: 311px;
+  height: 668px;
+  gap: 24px;
+  margin-top: 100px;
+  margin-left: 10%;
+}
+.Instructions h2 {
+  width: 311px;
+  height: 28px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 28px;
+  color: #854632;
+}
+.Instructions span {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f564d;
+}
+.Instructions li::marker {
+  color: #854632;
+  font-weight: bolder;
+}
+.Instructions ol {
+  margin-top: 40px;
+}
+.Instructions ol li {
+  height: 120px;
+  width: 311px;
+  padding-left: 3%;
+  gap: 5px;
+  margin-left: 5%;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f564d;
+}
+.Instructions hr {
+  width: 311px;
+  border: 1px solid #e3ddd7;
+  color: #e3ddd7;
+  margin-top: 0px;
+}
+/* Nutrition section styles */
+.Nutrition {
+  margin-top: 200px;
+  width: 311px;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-left: 10%;
+}
+.Nutrition h2 {
+  width: 311px;
+  height: 28px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 28px;
+  color: #854632;
+}
+.Nutrition p {
+  width: 311px;
+  height: 48px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f564d;
+}
+.Nutrition h4 {
+  /* width: 311px; */
+  height: 24px;
+  padding: 0px, 32px, 0px, 32px;
+  display: flex;
+  gap: 16px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #5f564d;
+  margin-left: 10%;
+}
+.Nutrition hr {
+  width: 311px;
+  border: 1px solid #e3ddd7;
+  color: #e3ddd7;
+  margin-top: 0px;
+}
+.Nutrition span {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #854632;
+  margin-left: 20%;
+}
+.Nutrition .weight_counter {
+  display: flex;
+  flex-direction: column;
+}
+.Nutrition .calories {
+  display: flex;
+  gap: 14px;
+
+  padding-bottom: 10px;
+}
+.Nutrition .carbs {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 30px;
+}
+.Nutrition .protein {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 20px;
+}
+.Nutrition .fat {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  gap: 50px;
+}
