@@ -403,5 +403,6 @@ header p {
   }
   .Instructions ol li {
     height: 70px;
+    width: 560px;
   }
 }
