@@ -350,25 +350,39 @@ header p {
   }
   header h1 {
     width: 656px;
+    margin-left: 1%;
   }
   header p {
     width: 656px;
     margin-top: -10px;
+    margin-left: 1%;
   }
   .Preparation_time {
     margin-top: -20px;
   }
+  .Ingredients h2 {
+    margin-left: -20%;
+  }
+  .Ingredients ul {
+    margin-left: -20%;
+  }
   .Ingredients hr {
-    width: 606px;
+    width: 656px;
+    margin-left: -20%;
   }
   .Instructions hr {
-    width: 606px;
+    width: 656px;
+    margin-left: -10%;
   }
   .Instructions ol li {
     width: 606px;
+    margin-left: -5%;
   }
   .Instructions {
-    width: 606px;
+    width: 756px;
+  }
+  .Instructions h2 {
+    margin-left: -8%;
   }
   .Nutrition {
     margin-top: -140px;
@@ -376,7 +390,16 @@ header p {
   .Nutrition hr {
     width: 606px;
   }
-
+  .Nutrition h2 {
+    margin-left: -20%;
+  }
+  .Nutrition p {
+    width: 656px;
+    margin-left: -20%;
+  }
+  .weight_counter {
+    margin-left: -20%;
+  }
   .Nutrition .calories {
     display: flex;
     gap: 224px;
