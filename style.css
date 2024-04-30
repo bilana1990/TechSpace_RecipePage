@@ -295,7 +295,15 @@ header p {
   padding-bottom: 30px;
   gap: 50px;
 }
-
+/* 375 px responsive */
+@media (min-width: 400px) {
+  header img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  header h1 {
+  }
+}
 /* 768px responsive styles */
 @media (min-width: 768px) {
   body {
